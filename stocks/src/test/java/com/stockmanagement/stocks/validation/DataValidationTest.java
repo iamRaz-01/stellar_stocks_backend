@@ -53,11 +53,7 @@ class DataValidationTest {
         InvalidDataException exception =  assertThrows(InvalidDataException.class,()->DataValidation.costValidation(-10));
         assertEquals("Cost cant be 0 or less than 0",exception.getMessage());
     }
-    @Test
-    void costValidationTest3(){
-        InvalidDataException exception =  assertThrows(InvalidDataException.class,()->DataValidation.costValidation(-100));
-        assertEquals("Cost cant be 0 or less than 0",exception.getMessage());
-    }
+
 
 
 
