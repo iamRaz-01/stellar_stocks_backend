@@ -19,27 +19,27 @@ public class Product {
     private int cost ;
     
     public void setVehicle(int vehicle)throws InvalidDataException{
-        DataValidation.vehicleValidation(vehicle);
+       // DataValidation.vehicleValidation(vehicle);
         this.vehicle = vehicle;
     }
     
     public void setProductName(String productName) throws InvalidDataException {
-        DataValidation.stringValidation(productName,"product name",100);
+       // DataValidation.stringValidation(productName,"product name",100);
         this.productName = productName;
     }
     
     public void setCompany(String company) throws InvalidDataException{
-        DataValidation.stringValidation(company,"company" , 30);
+       // DataValidation.stringValidation(company,"company" , 30);
         this.company = company;
     }
 
     public void setQuantity(int quantity) throws InvalidDataException {
-        DataValidation.quantityValidation(quantity);
+      //  DataValidation.quantityValidation(quantity);
         this.quantity = quantity;
     }
 
     public void setCost(int cost) throws InvalidDataException {
-        DataValidation.costValidation(cost);
+     //   DataValidation.costValidation(cost);
         this.cost = cost;
     }
 
