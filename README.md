@@ -1,1 +1,1 @@
-# stock_management_application_backend
+# Stellar Stocks 
